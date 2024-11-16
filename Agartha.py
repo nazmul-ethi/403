@@ -1774,7 +1774,7 @@ class BurpExtender(IBurpExtender, ITab, IMessageEditorController, IContextMenuFa
 
 
                 # column2 Http request method has been replaced with others
-                _reqMethods = ["ABC ", "TRACE ", "CONNECT ", "PATCH ", "DEBUG "]
+                _reqMethods = ["ABC ", "TRACE ", "CONNECT ", "PATCH ", "DEBUG ", "PUT", "POST", "HEAD", "LOCK", "UPDATE", "TRACK", "OPTIONS", "DELETE", "X", "ADMIN", "NOTHING", "PRI", "BIND", "CHECKOUT", "MKCALENDAR", "ORDERPATCH", "PROPFIND", "SEARCH", "UNLINK", "UPDATE"]
                 _headerOrg = list(_matrixList[x][1])
                 for _reqMethod in _reqMethods:
                     for _url in _urls:
